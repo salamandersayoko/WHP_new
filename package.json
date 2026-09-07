@@ -1,0 +1,12 @@
+{
+  "name": "waseda-heat-pump-consortium-site",
+  "private": true,
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind-build.css --minify",
+    "watch:css": "npx @tailwindcss/cli -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind-build.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
